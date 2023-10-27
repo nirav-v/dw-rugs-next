@@ -1,7 +1,7 @@
-import React from "react";
+// import React from "react";
 import Link from "next/link";
 
-function NavBar() {
+export default function NavBar() {
   return (
     <div>
       NavBar
@@ -12,5 +12,3 @@ function NavBar() {
     </div>
   );
 }
-
-export default NavBar;

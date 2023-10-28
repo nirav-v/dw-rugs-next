@@ -25,6 +25,26 @@ export default function GalleryPage() {
       name: "marlboroRacing",
       image: "/marlboro-racing.jpeg",
     },
+    {
+      name: "marlboroRacing",
+      image: "/marlboro-racing.jpeg",
+    },
+    {
+      name: "marlboroRacing",
+      image: "/marlboro-racing.jpeg",
+    },
+    {
+      name: "marlboroRacing",
+      image: "/marlboro-racing.jpeg",
+    },
+    {
+      name: "marlboroRacing",
+      image: "/marlboro-racing.jpeg",
+    },
+    {
+      name: "marlboroRacing",
+      image: "/marlboro-racing.jpeg",
+    },
   ];
 
   return (
@@ -35,7 +55,13 @@ export default function GalleryPage() {
           <div
             key={index}
             className="flex justify-center bg-contain bg-no-repeat h-64 w-36 m-2">
-            <Image src={img.image} alt={img.name} width={140} height={100} />
+            <Image
+              src={img.image}
+              alt={img.name}
+              width={140}
+              height={100}
+              className="rounded-md"
+            />
           </div>
         ))}
       </div>
